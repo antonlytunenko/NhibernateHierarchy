@@ -1,0 +1,14 @@
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Hierarchy.NHibernate.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Hierarchy.NHibernate.pdb
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Castle.Core.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\FluentNHibernate.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Iesi.Collections.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\NHibernate.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\NhibernateHierarchyTest.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Remotion.Data.Linq.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\NhibernateHierarchyTest.pdb
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\obj\Debug\Hierarchy.NHibernate.dll
+C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\obj\Debug\Hierarchy.NHibernate.pdb

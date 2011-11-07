@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2bea1092-f6e9-41d5-abed-bc48bf827581" name="alytunenko@WS01 2011-11-07 17:44:42" runUser="ECLIPSESP\alytunenko" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7f2de828-320c-47b7-bad7-14338a7a3542">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="alytunenko_WS01 2011-11-07 17_44_42">
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\NhibernateHierarchyTest\bin\Debug\NhibernateHierarchyTest.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Hierarchy.NHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Remotion.Data.Linq.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Antlr3.Runtime.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-07T17:44:42.1991606+02:00" queuing="2011-11-07T17:44:42.2621669+02:00" start="2011-11-07T17:44:42.2691676+02:00" finish="2011-11-07T17:44:48.8858292+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAll_Cars" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="edaedbb8-d439-e148-3d04-87f9ed4dde7f">
+      <Execution id="8b425d4e-9bc9-4c2c-8d6d-94b9fc887b65" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Cars" />
+    </UnitTest>
+    <UnitTest name="GetAll_Buses" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="9bdeb3fd-a67a-7aaa-2d77-646adc2b6c65">
+      <Execution id="9a949064-e465-4986-8dfd-5223ecff25d7" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Buses" />
+    </UnitTest>
+    <UnitTest name="GetAll_Motors" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="f002f957-10d5-8ca8-fadb-5954e3e18635">
+      <Execution id="42f8194f-3a12-4286-9449-5dd8d7eb743e" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Motors" />
+    </UnitTest>
+    <UnitTest name="GetAll_Trucks" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="cd1c1b2c-bbec-54fb-4f18-853f67d36d41">
+      <Execution id="9b31b36d-6412-44fb-a10c-6b41ee220130" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Trucks" />
+    </UnitTest>
+    <UnitTest name="GetAll_Bicycles" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="ee45036e-378c-ce95-452f-d5f626bd2401">
+      <Execution id="397d9452-0aab-4b15-8774-c7833326caa2" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Bicycles" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9bdeb3fd-a67a-7aaa-2d77-646adc2b6c65" executionId="9a949064-e465-4986-8dfd-5223ecff25d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd1c1b2c-bbec-54fb-4f18-853f67d36d41" executionId="9b31b36d-6412-44fb-a10c-6b41ee220130" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edaedbb8-d439-e148-3d04-87f9ed4dde7f" executionId="8b425d4e-9bc9-4c2c-8d6d-94b9fc887b65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee45036e-378c-ce95-452f-d5f626bd2401" executionId="397d9452-0aab-4b15-8774-c7833326caa2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f002f957-10d5-8ca8-fadb-5954e3e18635" executionId="42f8194f-3a12-4286-9449-5dd8d7eb743e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9a949064-e465-4986-8dfd-5223ecff25d7" testId="9bdeb3fd-a67a-7aaa-2d77-646adc2b6c65" testName="GetAll_Buses" computerName="WS01" duration="00:00:04.8198533" startTime="2011-11-07T17:44:42.2911698+02:00" endTime="2011-11-07T17:44:47.3086715+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a949064-e465-4986-8dfd-5223ecff25d7">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init threw exception. NHibernate.MappingException: NHibernate.MappingException: No persister for: Hierarchy.Bicycle.</Message>
+          <StackTrace>    at NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   at NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   at NHibernate.Engine.ForeignKeys.IsTransient(String entityName, Object entity, Nullable`1 assumed, ISessionImplementor session)
+   at NHibernate.Event.Default.AbstractSaveEventListener.GetEntityState(Object entity, String entityName, EntityEntry entry, ISessionImplementor source)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(Object obj)
+   at Hierarchy.NHibernate.NHibernateVihicleRepository.Save(Vehicle v) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\NHibernateVihicleRepository.cs:line 21
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.CreateBicycles(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 85
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.SeedData(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 69
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b31b36d-6412-44fb-a10c-6b41ee220130" testId="cd1c1b2c-bbec-54fb-4f18-853f67d36d41" testName="GetAll_Trucks" computerName="WS01" duration="00:00:00.0059860" startTime="2011-11-07T17:44:47.3116718+02:00" endTime="2011-11-07T17:44:47.3246731+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b31b36d-6412-44fb-a10c-6b41ee220130">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init threw exception. NHibernate.MappingException: NHibernate.MappingException: No persister for: Hierarchy.Bicycle.</Message>
+          <StackTrace>    at NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   at NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   at NHibernate.Engine.ForeignKeys.IsTransient(String entityName, Object entity, Nullable`1 assumed, ISessionImplementor session)
+   at NHibernate.Event.Default.AbstractSaveEventListener.GetEntityState(Object entity, String entityName, EntityEntry entry, ISessionImplementor source)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(Object obj)
+   at Hierarchy.NHibernate.NHibernateVihicleRepository.Save(Vehicle v) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\NHibernateVihicleRepository.cs:line 21
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.CreateBicycles(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 85
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.SeedData(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 69
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b425d4e-9bc9-4c2c-8d6d-94b9fc887b65" testId="edaedbb8-d439-e148-3d04-87f9ed4dde7f" testName="GetAll_Cars" computerName="WS01" duration="00:00:00.0053501" startTime="2011-11-07T17:44:47.3316738+02:00" endTime="2011-11-07T17:44:47.3396746+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b425d4e-9bc9-4c2c-8d6d-94b9fc887b65">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init threw exception. NHibernate.MappingException: NHibernate.MappingException: No persister for: Hierarchy.Bicycle.</Message>
+          <StackTrace>    at NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   at NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   at NHibernate.Engine.ForeignKeys.IsTransient(String entityName, Object entity, Nullable`1 assumed, ISessionImplementor session)
+   at NHibernate.Event.Default.AbstractSaveEventListener.GetEntityState(Object entity, String entityName, EntityEntry entry, ISessionImplementor source)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(Object obj)
+   at Hierarchy.NHibernate.NHibernateVihicleRepository.Save(Vehicle v) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\NHibernateVihicleRepository.cs:line 21
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.CreateBicycles(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 85
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.SeedData(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 69
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="397d9452-0aab-4b15-8774-c7833326caa2" testId="ee45036e-378c-ce95-452f-d5f626bd2401" testName="GetAll_Bicycles" computerName="WS01" duration="00:00:00.0046224" startTime="2011-11-07T17:44:47.3426749+02:00" endTime="2011-11-07T17:44:47.3506757+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="397d9452-0aab-4b15-8774-c7833326caa2">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init threw exception. NHibernate.MappingException: NHibernate.MappingException: No persister for: Hierarchy.Bicycle.</Message>
+          <StackTrace>    at NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   at NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   at NHibernate.Engine.ForeignKeys.IsTransient(String entityName, Object entity, Nullable`1 assumed, ISessionImplementor session)
+   at NHibernate.Event.Default.AbstractSaveEventListener.GetEntityState(Object entity, String entityName, EntityEntry entry, ISessionImplementor source)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(Object obj)
+   at Hierarchy.NHibernate.NHibernateVihicleRepository.Save(Vehicle v) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\NHibernateVihicleRepository.cs:line 21
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.CreateBicycles(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 85
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.SeedData(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 69
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42f8194f-3a12-4286-9449-5dd8d7eb743e" testId="f002f957-10d5-8ca8-fadb-5954e3e18635" testName="GetAll_Motors" computerName="WS01" duration="00:00:00.0061008" startTime="2011-11-07T17:44:47.3526759+02:00" endTime="2011-11-07T17:44:47.3626769+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42f8194f-3a12-4286-9449-5dd8d7eb743e">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init threw exception. NHibernate.MappingException: NHibernate.MappingException: No persister for: Hierarchy.Bicycle.</Message>
+          <StackTrace>    at NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   at NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   at NHibernate.Engine.ForeignKeys.IsTransient(String entityName, Object entity, Nullable`1 assumed, ISessionImplementor session)
+   at NHibernate.Event.Default.AbstractSaveEventListener.GetEntityState(Object entity, String entityName, EntityEntry entry, ISessionImplementor source)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.SaveOrUpdate(Object obj)
+   at Hierarchy.NHibernate.NHibernateVihicleRepository.Save(Vehicle v) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\NHibernateVihicleRepository.cs:line 21
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.CreateBicycles(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 85
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.SeedData(Int32 count) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 69
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.Init() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

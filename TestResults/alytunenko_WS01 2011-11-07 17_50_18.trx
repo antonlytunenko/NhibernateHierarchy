@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="18b74369-e59e-401a-b411-67775c0f12f9" name="alytunenko@WS01 2011-11-07 17:50:18" runUser="ECLIPSESP\alytunenko" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7f2de828-320c-47b7-bad7-14338a7a3542">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="alytunenko_WS01 2011-11-07 17_50_18">
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\NhibernateHierarchyTest\bin\Debug\NhibernateHierarchyTest.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Hierarchy.NHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Remotion.Data.Linq.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Antlr3.Runtime.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-07T17:50:18.1697543+02:00" queuing="2011-11-07T17:50:18.2377611+02:00" start="2011-11-07T17:50:18.2487622+02:00" finish="2011-11-07T17:50:20.9480321+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAll_Cars" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="edaedbb8-d439-e148-3d04-87f9ed4dde7f">
+      <Execution id="c55dc8e0-277f-451d-aad6-f99a7b3d4713" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Cars" />
+    </UnitTest>
+    <UnitTest name="GetAll_Buses" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="9bdeb3fd-a67a-7aaa-2d77-646adc2b6c65">
+      <Execution id="f3a007b6-280c-4e88-a0ea-ed57d955afbb" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Buses" />
+    </UnitTest>
+    <UnitTest name="GetAll_Motors" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="f002f957-10d5-8ca8-fadb-5954e3e18635">
+      <Execution id="2423f22f-200b-4279-9458-f52d2d0d1e99" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Motors" />
+    </UnitTest>
+    <UnitTest name="GetAll_Trucks" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="cd1c1b2c-bbec-54fb-4f18-853f67d36d41">
+      <Execution id="7e64d11d-f657-474f-87e9-9d64c76c6f0d" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Trucks" />
+    </UnitTest>
+    <UnitTest name="GetAll_Bicycles" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="ee45036e-378c-ce95-452f-d5f626bd2401">
+      <Execution id="ab92a70b-daae-4597-8830-02a98f48529d" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Bicycles" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9bdeb3fd-a67a-7aaa-2d77-646adc2b6c65" executionId="f3a007b6-280c-4e88-a0ea-ed57d955afbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd1c1b2c-bbec-54fb-4f18-853f67d36d41" executionId="7e64d11d-f657-474f-87e9-9d64c76c6f0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edaedbb8-d439-e148-3d04-87f9ed4dde7f" executionId="c55dc8e0-277f-451d-aad6-f99a7b3d4713" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee45036e-378c-ce95-452f-d5f626bd2401" executionId="ab92a70b-daae-4597-8830-02a98f48529d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f002f957-10d5-8ca8-fadb-5954e3e18635" executionId="2423f22f-200b-4279-9458-f52d2d0d1e99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f3a007b6-280c-4e88-a0ea-ed57d955afbb" testId="9bdeb3fd-a67a-7aaa-2d77-646adc2b6c65" testName="GetAll_Buses" computerName="WS01" duration="00:00:01.8936739" startTime="2011-11-07T17:50:18.2527626+02:00" endTime="2011-11-07T17:50:20.3169690+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3a007b6-280c-4e88-a0ea-ed57d955afbb">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e64d11d-f657-474f-87e9-9d64c76c6f0d" testId="cd1c1b2c-bbec-54fb-4f18-853f67d36d41" testName="GetAll_Trucks" computerName="WS01" duration="00:00:00.1253813" startTime="2011-11-07T17:50:20.3219695+02:00" endTime="2011-11-07T17:50:20.4519825+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e64d11d-f657-474f-87e9-9d64c76c6f0d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c55dc8e0-277f-451d-aad6-f99a7b3d4713" testId="edaedbb8-d439-e148-3d04-87f9ed4dde7f" testName="GetAll_Cars" computerName="WS01" duration="00:00:00.1681971" startTime="2011-11-07T17:50:20.4539827+02:00" endTime="2011-11-07T17:50:20.6259999+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c55dc8e0-277f-451d-aad6-f99a7b3d4713">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab92a70b-daae-4597-8830-02a98f48529d" testId="ee45036e-378c-ce95-452f-d5f626bd2401" testName="GetAll_Bicycles" computerName="WS01" duration="00:00:00.1208333" startTime="2011-11-07T17:50:20.6330006+02:00" endTime="2011-11-07T17:50:20.7650138+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab92a70b-daae-4597-8830-02a98f48529d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2423f22f-200b-4279-9458-f52d2d0d1e99" testId="f002f957-10d5-8ca8-fadb-5954e3e18635" testName="GetAll_Motors" computerName="WS01" duration="00:00:00.1502396" startTime="2011-11-07T17:50:20.7670140+02:00" endTime="2011-11-07T17:50:20.9200293+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2423f22f-200b-4279-9458-f52d2d0d1e99">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;15&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.AssertVehicles[T](Int32 expCount) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 58
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.GetAll_Motors() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

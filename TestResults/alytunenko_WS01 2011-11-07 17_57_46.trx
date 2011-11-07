@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="42775998-349e-444e-9a00-d9e92bfa8125" name="alytunenko@WS01 2011-11-07 17:57:46" runUser="ECLIPSESP\alytunenko" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7f2de828-320c-47b7-bad7-14338a7a3542">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="alytunenko_WS01 2011-11-07 17_57_46">
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\NhibernateHierarchyTest\bin\Debug\NhibernateHierarchyTest.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate\bin\Debug\Hierarchy.NHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Remotion.Data.Linq.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\Projects\NhibernateHierarchyTest\Bin\Nhibernate\Antlr3.Runtime.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-07T17:57:46.4535782+02:00" queuing="2011-11-07T17:57:46.4985827+02:00" start="2011-11-07T17:57:46.5075836+02:00" finish="2011-11-07T17:57:49.1258454+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAll_Motors" storage="c:\projects\nhibernatehierarchytest\hierarchy.nhibernate.tests\bin\debug\hierarchy.nhibernate.tests.dll" id="f002f957-10d5-8ca8-fadb-5954e3e18635">
+      <Execution id="bfa2fff1-c560-42f2-afc7-e5d5d789e216" />
+      <TestMethod codeBase="C:/Projects/NhibernateHierarchyTest/Hierarchy.NHibernate.Tests/bin/Debug/Hierarchy.NHibernate.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest, Hierarchy.NHibernate.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_Motors" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f002f957-10d5-8ca8-fadb-5954e3e18635" executionId="bfa2fff1-c560-42f2-afc7-e5d5d789e216" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bfa2fff1-c560-42f2-afc7-e5d5d789e216" testId="f002f957-10d5-8ca8-fadb-5954e3e18635" testName="GetAll_Motors" computerName="WS01" duration="00:00:02.3678662" startTime="2011-11-07T17:57:46.5215850+02:00" endTime="2011-11-07T17:57:49.0618390+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfa2fff1-c560-42f2-afc7-e5d5d789e216">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;15&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.AssertVehicles[T](Int32 expCount) in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 63
+   at Hierarchy.NHibernate.Tests.NHibernateVehicleRepositoryTest.GetAll_Motors() in C:\Projects\NhibernateHierarchyTest\Hierarchy.NHibernate.Tests\NHibernateVehicleRepositoryTest.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
